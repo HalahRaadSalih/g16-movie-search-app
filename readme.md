@@ -36,6 +36,16 @@ This is the repo for the unit-02 angularJS assignment.
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"
 	```	
 		
+<br>
+### Folder Sturcture
+	├── css
+	├── index.html
+	├── js
+	│   └── app.js
+	├── partials
+	│ 
+	│   └── home.html
+	└── readme.md		
 <br>	
 ### ngRoute
 
