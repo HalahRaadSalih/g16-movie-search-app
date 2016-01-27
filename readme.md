@@ -2,8 +2,17 @@
 
 This is the repo for the unit-02 angularJS assignment.
 
+###Features 
+
 - TDD with Angular
 - [OMBD API](http://www.omdbapi.com/)
+- ngRoute
+- $http service
+- search for movies based on titles
+- access a movie
+- still be able to search a movie even if you're in the one movie route
+
+### Necessary Links
 - URL to search for movies
 
 	```
