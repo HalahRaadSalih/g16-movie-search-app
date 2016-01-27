@@ -1,0 +1,22 @@
+{
+  "name": "g16-movie-search-app",
+  "version": "1.0.0",
+  "description": "This is the repo for the unit-02 angularJS assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalahRaadSalih/g16-movie-search-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HalahRaadSalih/g16-movie-search-app/issues"
+  },
+  "homepage": "https://github.com/HalahRaadSalih/g16-movie-search-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
