@@ -6,6 +6,10 @@ app.config(function($routeProvider, $locationProvider) {
     templateUrl : 'partials/home.html',
     controller: 'HomeController'
   })
+  .when('/results', {
+    templateUrl : 'parials/results.html',
+    controller: 'ResultsController'
+  })
   .when('/show/:id', {
     templateUrl : 'partials/movie.html',
     controller: 'MovieController'

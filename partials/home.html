@@ -1,1 +1,6 @@
-<h1>{{ message }}</h1>
+<h1>Angular OMDb API Search</h1>
+  <h3>Enter a movie by title</h3>
+  <form class="simple-form" name="search" ng-submit="submit(search)">
+    <input type="text" id="searchInput" placeholder="movie title" ng-model="searchText">
+    <button type='submit'>Search</button>
+  </form>
