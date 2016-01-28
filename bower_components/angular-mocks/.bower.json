@@ -1,0 +1,13 @@
+{
+  "name": "angular-mocks",
+  "_cacheHeaders": {
+    "Last-Modified": "Sun, 06 Dec 2015 19:30:07 GMT",
+    "Content-Length": "18895",
+    "Content-Type": "text/javascript; charset=UTF-8"
+  },
+  "main": "index.js",
+  "_source": "http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-mocks.js",
+  "_target": "*",
+  "_originalSource": "http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-mocks.js",
+  "_direct": true
+}

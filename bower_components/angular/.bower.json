@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "_cacheHeaders": {
+    "Last-Modified": "Sun, 06 Dec 2015 19:30:07 GMT",
+    "Content-Length": "258508",
+    "Content-Type": "text/javascript; charset=UTF-8"
+  },
+  "main": "index.js",
+  "_source": "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js",
+  "_target": "*",
+  "_originalSource": "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js",
+  "_direct": true
+}
