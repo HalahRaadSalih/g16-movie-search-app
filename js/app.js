@@ -1,16 +1,18 @@
-angular.module('app', [])
-.controller('PasswordController', function PasswordController($scope) {
-  $scope.password = '';
-  $scope.grade = function() {
-    var size = $scope.password.length;
-    if (size > 8) {
-      $scope.strength = 'strong';
-    }
-    else if (size > 3) {
-      $scope.strength = 'medium';
-    }
-    else {
-      $scope.strength = 'weak';
-    }
-  };
-});
+var app = angular.module('myapp', ['ngRoute']);
+
+app.config(function($routeProvider, $locationProvider) {
+  $routeProvider
+  .when('/', {
+    templateUrl : 'partials/home.html',
+    controller: 'HomeController'
+  })
+  .when('/show/:id', {
+    templateUrl : 'partials/movie.html',
+    controller: 'MovieController'
+  })
+  .otherwise({
+    redirectTo: "/"
+  })
+
+  $locationProvider.html5Mode(true);
+})
