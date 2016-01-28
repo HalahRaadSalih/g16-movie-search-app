@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/HalahRaadSalih/g16-movie-search-app#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-uglify": "^1.5.1",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.19"
   }
 }
