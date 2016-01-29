@@ -1,1 +1,10 @@
-<h1>{{ message }}</h1>
+<h2>{{ movie.Title }}</h2>
+<img src="{{ movie.Poster }}" alt="">
+<p>Starring: {{ movie.Actors }}</p>
+<p>Plot: {{ movie.Plot }}</p>
+
+<h3>Additional Details</h3>
+<div ng-repeat="detail in details">
+  <h4>{{ detail }}</h4>
+  <h5>{{ movie[detail] }}</h5>
+</div>
