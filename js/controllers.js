@@ -1,8 +1,10 @@
-app.controller('HomeController', function($scope) {
-  $scope.message = "In home controller"
-
+app.controller('HomeController', function($scope, $http) {
   $scope.submit = function(search) {
-    console.log("here");
+    $http
+      .get('http://www.omdbapi.com/?s=' + search.text)
+      .then(function(results) {
+        console.log(results);
+      })
   }
 })
 
